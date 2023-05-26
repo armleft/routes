@@ -24,5 +24,6 @@ export LC_ALL=en_US.UTF-8
 locale-gen en_US.UTF-8
 dpkg-reconfigure locales
 
-
+--- then
+localectl set-locale LC_TIME=en_GB.UTF-8
 
